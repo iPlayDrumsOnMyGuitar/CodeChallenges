@@ -24,5 +24,3 @@ const arr = N => {
     return newArr
  
 }
-
-
