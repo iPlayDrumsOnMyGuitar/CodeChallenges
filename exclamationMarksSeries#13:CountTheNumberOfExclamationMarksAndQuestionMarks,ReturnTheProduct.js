@@ -35,6 +35,3 @@ function product (string) {
     return counts[0] * counts[1]
   
 }
-
-
-
