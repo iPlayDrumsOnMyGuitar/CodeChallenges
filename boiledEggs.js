@@ -22,3 +22,5 @@ function cookingTime(eggs) {
     return count * 5
     
   }
+
+  
