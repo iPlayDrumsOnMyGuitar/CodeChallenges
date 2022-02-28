@@ -23,3 +23,4 @@ function solution(pairs){
     return arr.join();
   
 }
+
