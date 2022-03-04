@@ -22,3 +22,4 @@ const GetSum = (a, b) => {
     return (max - min + 1) * (min + max) / 2;
  
 }
+
