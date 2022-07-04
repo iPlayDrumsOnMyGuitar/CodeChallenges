@@ -17,4 +17,3 @@ function findMultiples(integer, limit) {
     }return ans
  
 }
-
