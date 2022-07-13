@@ -21,3 +21,4 @@ function fuelPrice(litres, pricePerLitre) {
     }
   }
   
+  
