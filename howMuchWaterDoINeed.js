@@ -17,3 +17,5 @@ function howMuchWater(water, load, clothes){
       return 'Not enough clothes'
     }return +((water) * 1.1 **(clothes - load)).toFixed(2)
   }
+
+  
