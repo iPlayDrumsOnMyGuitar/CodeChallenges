@@ -1,4 +1,4 @@
-Palindrome Strings
+/* Palindrome Strings
 
 
 Palindrome strings
@@ -11,7 +11,7 @@ Examples(Input ==> Output)
 "walter" ==> false
 12321    ==> true
 123456   ==> false
-
+ */
 
 
 function isPalindrome(line) {
