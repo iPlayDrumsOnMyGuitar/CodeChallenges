@@ -9,7 +9,7 @@ For example:
 ([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2) => [-8, 26]
 ([6, -25, 3, 7, 5, 5, 7, -3, 23], 1) => [6] */
 
-function evenNumbers(array, number) {
+/* function evenNumbers(array, number) {
     
     let ans = []
     
@@ -29,4 +29,22 @@ function evenNumbers(array, number) {
     }return ans.reverse()
   
 }
- 
+  */
+
+function evenNumbers(array, number) {
+   
+    let evenNums = []
+   
+    for (let i = 0; i < array.length; i++){
+   
+    if(array[i] % 2 == 0){
+   
+        evenNums.push(array[i])
+        
+      }
+    
+    }
+
+    return evenNums.slice(-number)
+  
+}
