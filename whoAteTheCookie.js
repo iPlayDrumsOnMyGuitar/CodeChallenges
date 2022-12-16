@@ -26,3 +26,21 @@ function cookie(x){
     }
   
 }
+
+const cookie = (x) => {
+   
+    if (x === x.toString()){
+  
+        return "Who ate the last cookie? It was Zach!"
+  
+    }else if(+x === x){
+  
+        return "Who ate the last cookie? It was Monica!"
+  
+    }else{
+  
+        return "Who ate the last cookie? It was the dog!"
+  
+    }
+  
+}
