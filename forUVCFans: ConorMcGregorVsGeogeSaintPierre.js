@@ -12,9 +12,15 @@ If the winner is Conor McGregor he will most undoubtedly say:
 "I'd like to take this chance to apologize.. To absolutely NOBODY!"
  */
 var quote = function(fighter) {
+   
     if (fighter.toLowerCase() == 'george saint pierre'){
-      return "I am not impressed by your performance."
+   
+        return "I am not impressed by your performance."
+   
     }else{
-      return "I'd like to take this chance to apologize.. To absolutely NOBODY!"
+   
+        return "I'd like to take this chance to apologize.. To absolutely NOBODY!"
+   
     }
-  };
+ 
+};
