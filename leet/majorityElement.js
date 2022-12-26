@@ -19,21 +19,18 @@ Output: 2
  */
 
 function majorityElement(arr){
-    let elem = {},
+    let map = {},
         count = 0,
         majElem = arr[0]
 
-    for(const num of arr){
-        elem[num] = elem[num] + 1 || 1
-        //elem[num] > arr.length / 2 ?
+    for (const num of arr){
+        arr[num] = arr[num] + 1 || 1
     }
-    for(const n in elem){
-        if(elem[n] > count){
-            count = elem[n]
-            majElem - n
+    for(const elem in map){
+        if(map[elem] > count){
+            majElem = map[elem]
         }
-    }
-    return majElem
+    }return majElem
 }
 
 console.log(majorityElement([3,2,3]), 3)
