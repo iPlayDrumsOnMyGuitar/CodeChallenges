@@ -35,3 +35,4 @@ return count
 
 console.log(numJewelsInStones('aA', 'aAAbbbb'), 3)
 console.log(numJewelsInStones('z', 'ZZ'), 0)
+
