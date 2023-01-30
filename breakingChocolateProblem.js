@@ -10,10 +10,15 @@ If input data is invalid you should return 0 (as in no breaks are needed if we d
  */
 
 function breakChocolate(n,m) {
+   
     if(n === 1 && m === 1 || n === 0 || m === 0){
-      return 0
+   
+        return 0
+   
     }else{
-       return n * m - 1
+   
+        return n * m - 1
+   
     }
      
   }
