@@ -7,10 +7,15 @@ Given a non-negative integer, 3 for example, return a string with a murmur: "1 s
  */
 
 var countSheep = function (num){
-    var ret = "";
-    for (let i = 1; i <= num; i++) {
-      ret += i + " sheep..."
-    }
+   
+  var ret = "";
+  
+  for (let i = 1; i <= num; i++) {
+  
+    ret += i + " sheep..."
+  
+  }
     
     return ret;
+  
   }
