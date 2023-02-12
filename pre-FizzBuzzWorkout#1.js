@@ -9,9 +9,15 @@ Your expected output is an array of positive integers from 1 to n (inclusive).
 Your job is to write an algorithm that gets you from the input to the output.
  */
 function preFizz(n) {
-    let arr =[]
-    for (let i = 1; i <= n; i ++){
-      arr.push(i)
-    }
-    return arr
+
+  let arr =[]
+
+  for (let i = 1; i <= n; i ++){
+
+    arr.push(i)
+
   }
+
+  return arr
+
+}
