@@ -10,7 +10,13 @@ because there is one 1st place value, a five-way tie for 2nd place, and one in 7
  */
 
 function ranks(a) {
-    const ranks = new Map();
-    [...a].sort((a,b) => b - a).forEach((number,i) => ! ranks.has(number) && ranks.set(number, i + 1))
-    return a.map(number => ranks.get(number));
-  }
+  
+  const ranks = new Map();
+  
+  [...a].sort((a,b) => b - a).forEach((number,i) => ! ranks.has(number) && ranks.set
+  
+  (number, i + 1))
+  
+  return a.map(number => ranks.get(number));
+  
+}
