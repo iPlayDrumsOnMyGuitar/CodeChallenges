@@ -20,3 +20,4 @@ function ranks(a) {
   return a.map(number => ranks.get(number));
   
 }
+
