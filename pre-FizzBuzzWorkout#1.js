@@ -21,3 +21,4 @@ function preFizz(n) {
   return arr
 
 }
+
