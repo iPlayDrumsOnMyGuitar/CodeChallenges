@@ -48,3 +48,4 @@ function findEvenIndex(arr){
     return equalIndex
  
 }
+
