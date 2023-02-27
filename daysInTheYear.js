@@ -17,18 +17,32 @@ So the years 0, -64 and 2016 will return 366 days. Whilst 1974, -10 and 666 will
  */
 
 function yearDays(year){
-    if(year == 0){
+   
+  if(year == 0){
+  
+    return `${year} has 366 days`
+  
+  }else if (year % 100 == 0){
+  
+    if(year % 400 == 0){
+  
       return `${year} has 366 days`
-    }else if (year % 100 == 0){
-      if(year % 400 == 0){
-        return `${year} has 366 days`
-      }else{
-        return`${year} has 365 days`
-      }
-    }else if(Math.abs(year % 4) === 0){
-        return `${year} has 366 days`
+  
     }else{
-      return `${year} has 365 days`
+  
+      return`${year} has 365 days`
+  
     }
+  
+  }else if(Math.abs(year % 4) === 0){
+  
+    return `${year} has 366 days`
+  
+  }else{
+  
+    return `${year} has 365 days`
+  
   }
+  
+}
     
