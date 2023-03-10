@@ -16,14 +16,22 @@ The value of 0! is 1.
 You have to create the function factorial that receives n and returns n!. You have to use recursion. */
 
 function factorial(n) {
+  
     if(n < 2){
+  
         return 1
+  
     }
+  
     return n * factorial(n -1)
+
 }
-    console.log(factorial(2), '2')
-    console.log(factorial(3), '6')
-    console.log(factorial(5), '120')
+
+console.log(factorial(2), '2')
+
+console.log(factorial(3), '6')
+
+console.log(factorial(5), '120')
 
 
   
