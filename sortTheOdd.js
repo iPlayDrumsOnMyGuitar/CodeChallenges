@@ -12,8 +12,9 @@ Examples
 function sortArray(arr){
     //filter -> sort
     const oddNums = arr.filter(n => n % 2 !== 0).sort((a,b) => b - a)
+    
     console.log(oddNums)
     //map -> 
     return arr.map(n => n % 2 === 0 ? n : oddNums.pop())
     
-    }
+}
