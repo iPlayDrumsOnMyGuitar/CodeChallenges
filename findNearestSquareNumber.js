@@ -6,9 +6,12 @@ Your task is to find the nearest square number, nearest_sq(n), of a positive int
 Goodluck :)
  */
 function nearestSq(n){
-    let num = Math.sqrt(n)
-    console.log(num)
-    console.log(Math.round(num))
+  
+  let num = Math.sqrt(n)
+  
+  console.log(num)
+  
+  console.log(Math.round(num))
     
       return (Math.round(num) ** 2)
 
