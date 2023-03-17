@@ -27,6 +27,7 @@ Implement the function which takes an array containing the names of people that 
   
   } */
 
+  
   function likes(names) {
   
     names = names || [];
@@ -49,4 +50,3 @@ Implement the function which takes an array containing the names of people that 
     }
   
   }
-  
