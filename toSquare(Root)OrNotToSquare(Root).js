@@ -12,17 +12,25 @@ Notes
 The input array will always contain only positive numbers, and will never be empty or null.
  */
 function squareOrSquareRoot(array) {
-    let newArray = []
-    for(let i = 0; i <= array.length -1; i++){
+   
+  let newArray = []
+  
+  for(let i = 0; i <= array.length -1; i++){
      
       if(Math.sqrt(array[i]) % 1 ===0){
+  
         newArray.push(Math.sqrt(array[i]))
+  
       }else{
+  
         newArray.push(array[i] * array[i])
+  
       }
      // if(Math.sqrt(array[i]) % 0 
     }
     
     return newArray;  
+  
   }
+  
   
