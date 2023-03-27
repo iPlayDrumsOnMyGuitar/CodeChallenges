@@ -14,3 +14,11 @@ var uniqueInOrder=function(iterable){
     return [...iterable].filter((a, i) => a !== iterable[i-1])
 
 }
+
+var uniqueInOrder=function(iterable){
+    return [...iterable].filter((e,i,a) => a[i] !== a[i - 1])
+  }
+
+  var uniqueInOrder=function(iterable){
+    return [...iterable].filter((e,i,a) => e !== a[i - 1])
+  }
