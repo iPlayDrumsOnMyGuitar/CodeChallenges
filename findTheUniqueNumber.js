@@ -7,5 +7,9 @@ findUniq([ 0, 0, 0.55, 0, 0 ]) === 0.55
 It’s guaranteed that array contains at least 3 numbers.
  */
 function findUniq(arr) {
-    return +arr.filter((x) => arr.indexOf(x) === arr.lastIndexOf(x))
-  }
+  
+    return +arr.filter((x) => arr.indexOf(x) === arr.
+    
+    lastIndexOf(x))
+  
+}
