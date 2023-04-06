@@ -18,17 +18,27 @@ The second string argument will always be of length 1
  */
 
 function strCount(str, letter){  
-    let letters = str.split('')
-    let counter = 0
-    for(let i = 0; i < allLetters.length; i++){
-      if(letters[i] === letter){
-        counter++
-        console.log(counter)
-      }
+   
+  let letters = str.split('')
+  
+  let counter = 0
+  
+  for(let i = 0; i < allLetters.length; i++){
+  
+    if(letters[i] === letter){
+  
+      counter++
+  
+      console.log(counter)
+  
+    }
       
     }return counter
+  
   }
   
   function strCount(str, letter){  
+  
     return str.split('').filter(c => c == letter).length;
+  
   }
